@@ -1,1 +1,61 @@
-#
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Streaming for Good Australia - Supported by GenerOZity</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+  </head>
+
+  <script>
+    function newiframeSrc() {
+      var url = 'https://donate.generozity.charity/ccapex';
+      var params = window.location.search;
+      var iframe_url = url + params;
+      document.getElementById('iframe').src = iframe_url;
+    }
+  </script>
+
+  <body onload="newiframeSrc()">
+    <!-- <body style="margin:0px;padding:0px;overflow:hidden">     -->
+    <iframe id="iframe" src="https://donate.generozity.charity/ccapex" style="overflow:hidden;height:100%;width:100%;margin-bottom: 40px;" width="100%" height="100% " frameborder="0"></iframe>
+
+    <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Stream For Good Australia</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" target="_blank" href="https://www.canva.com/design/DAEfwBLXFyw/LGWNiFxWvXV-LGt_q14HEg/view">FAQ</a>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav ms-auto">
+            <li><a class="nav-link" href="https://generozity.charity">Supported by GenerOZity</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+  </body>
+</html>
